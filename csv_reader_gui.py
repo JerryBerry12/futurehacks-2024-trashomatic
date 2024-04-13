@@ -5,7 +5,7 @@ import tkmacosx
 import datamanager
 
 window = tk.Tk()
-window.geometry("500x500")
+window.geometry("500x281")
 window.configure(bg='blue')
 window.title("Trash-o-Matic Mass Import")
 
