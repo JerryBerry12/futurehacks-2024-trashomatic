@@ -8,6 +8,7 @@ window = tk.Tk()
 window.geometry("500x281")
 window.configure(bg='blue')
 window.title("Trash-o-Matic Mass Import")
+window.iconbitmap("images/trashcan.ico")
 
 def massimport():
     file1 = open(entry1.get(), 'r')

@@ -8,6 +8,7 @@ window = tk.Tk()
 window.geometry("500x225")
 window.configure(bg='blue')
 window.title("Trash-o-Matic")
+window.iconbitmap("images/trashcan.ico")
 
 def checkwheregoes():
     userinput = entry1.get()

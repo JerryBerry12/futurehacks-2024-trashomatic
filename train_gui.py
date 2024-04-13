@@ -8,6 +8,7 @@ window = tk.Tk()
 window.geometry("500x360")
 window.configure(bg='blue')
 window.title("Trash-o-Matic Trainer")
+window.iconbitmap("images/trashcan.ico")
 
 def savedata():
     userinput = entry1.get()
