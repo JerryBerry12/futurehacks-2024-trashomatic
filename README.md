@@ -23,7 +23,7 @@ Categories:
 | Category | compost   | bottles/cans   | paper | trash | plastic |
 </details>
 
-`python csv_import_gui.py`
+`python csv_reader_gui.py`
 <br>
 
 Tell it the full path to your csv file, and it should auto import everything.
